@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>NRMARINE | Bangladesh Garments Manufacturer & Exporter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+  <!-- IMPORTANT: final script for catalog -->
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <!-- HEADER / NAV -->
+  <header class="site-header">
+    <div class="container header-top">
+      <div class="header-top-text">Made in Bangladesh • Knit & Woven Garments</div>
+    </div>
+
+    <div class="header-brand-wrap">
+      <div class="header-brand">
+        <div class="logo-slot">
+          <span class="logo-placeholder">LOGO</span>
+        </div>
+        <div class="logo-text">
+          NR<span>MARINE</span>
+          <div class="logo-subtitle">Garments Manufacturer & Exporter</div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="main-nav">
+      <div class="container nav-inner">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#quality">Quality</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <h1>Premium Garments Manufacturer from Bangladesh</h1>
+        <p>
+          NRMARINE specializes in export-quality garments – Shirts, Jeans, Gabardine Pants
+        – produced in compliant factories across Bangladesh.
+        </p>
+        <div class="hero-meta">
+         
+          <span>Flexible MOQ</span>
+          <span>EU / USA / UK buyers</span>
+        </div>
+        <div class="hero-actions">
+          <a href="#products" class="btn btn-primary">Browse Collections</a>
+          <a href="#contact" class="btn btn-outline">Request a Quote</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-img-main">
+          <img
+          src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FybWVudHxlbnwwfHwwfHx8MA%3D%3D"
+          alt="Garments factory in Bangladesh"
+          />
+       
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section section-alt" id="about">
+    <div class="container narrow">
+      <h2>About NRMARINE</h2>
+      <p class="section-subtitle">
+        Focused 100% on garments – built around Bangladesh’s world-class apparel industry.
+      </p>
+      <p>
+        NRMARINE is a garments manufacturer and sourcing company based in Bangladesh.
+        We manage knit and woven production for global brands, from basic promotional
+        T-shirts to premium fleece hoodies and joggers.
+      </p>
+    </div>
+  </section>
+
+  <!-- ✅ PRODUCTS (this must be here and IDs must match JS) -->
+  <section class="section" id="products">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2>Garments Collections</h2>
+          <p class="section-subtitle">
+          
+          </p>
+        </div>
+      </div>
+
+      <div class="filter-row">
+        <span>Filter by category:</span>
+        <div class="filter-group" id="categoryFilters"></div>
+      </div>
+
+      <!-- JS will fill this -->
+      <div class="product-grid" id="productGrid"></div>
+    </div>
+  </section>
+
+  <!-- QUALITY -->
+  <section class="section section-alt" id="quality">
+    <div class="container two-col">
+      <div>
+        <h2>Quality & Compliance</h2>
+        <p class="section-subtitle">
+          Multiple checkpoints from fabric to final inspection.
+        </p>
+        <p>
+          Our partner factories follow structured QC systems with AQL-based inspection.
+          We support testing for GSM, shrinkage, colorfastness and physical performance.
+        </p>
+      </div>
+      <div class="quality-img">
+        <img
+          src="images\Model.jpeg"
+          alt="Quality control of garments"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container two-col">
+      <div>
+        <h2>Contact & Inquiries</h2>
+        <p class="section-subtitle">
+          Send us your garments requirement – we respond with price & lead time.
+        </p>
+        <div class="contact-details">
+          <p><strong>NRMARINE Garments</strong></p>
+          <p>Dhaka, Bangladesh</p>
+          <p><strong>Email:</strong> info@nrmrine.com (example)</p>
+          <p><strong>Phone / WhatsApp:</strong> +880-1XXX-XXXXXX</p>
+        </div>
+      </div>
+
+      <div class="contact-card">
+        <form id="contactForm" class="contact-form">
+          <label>
+            Name
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            Company / Brand
+            <input type="text" name="company" />
+          </label>
+          <label>
+            Requirement Details
+            <textarea name="message" rows="4" required></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit">Send Inquiry</button>
+          
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> NRMARINE. All garments made in Bangladesh.</span>
+      <span>Knitwear • Woven • Fashion & Basics</span>
+    </div>
+  </footer>
+
+</body>
+</html>

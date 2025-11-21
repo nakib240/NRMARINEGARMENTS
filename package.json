@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "node-windows": "^1.0.0-beta.8",
+    "puppeteer-core": "^24.30.0"
+  }
+}
